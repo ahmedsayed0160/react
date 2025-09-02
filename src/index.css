@@ -1,0 +1,35 @@
+.body{
+     background-color: #20c997 !important;
+}
+
+.navo{
+    font-weight: 1000;
+    font-size: large;
+   
+    color: white !important;
+   
+}
+.test{
+    margin-top: 103px;
+}
+
+  
+ #navbarSupportedContent .active{
+    background-color:#1abc9ce6 !important;
+    border-radius: 10px;
+
+
+ }
+ .input-box {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.input-box:focus {
+  border-color: #4CAF50;  
+}
+

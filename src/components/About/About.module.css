@@ -1,0 +1,48 @@
+.Aboat{
+    background-color:  #1abc9c !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.captel{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.startt{
+    color: white;
+    font-size: 17px;
+}
+
+h2{
+ text-align: center;
+ position: relative;
+ width: 100%;
+}
+h2::after{
+    content: "";
+    position: absolute;
+    background: white ;
+    width: 6%;
+    height: 5px;
+    top: 61%;
+    right: 42%; 
+
+}
+h2::before{
+    content: "";
+    position: absolute;
+    background: white ;
+    width: 6%;
+    height: 5px;
+    top: 61%;
+    left: 42%; 
+
+}

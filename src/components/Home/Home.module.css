@@ -1,0 +1,51 @@
+.hom{
+    background-color: #1abc9c !important;
+ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+   }
+   .img{
+    width: 245px;
+    padding-top: 50px;
+   }
+.capte{
+   text-transform: uppercase;
+    color: white;
+    margin-bottom: 2px !important;
+}
+pre{
+    text-transform: capitalize;
+    color: white !important;
+}
+
+.start{
+    color: white;
+    font-size: 20px;
+}
+h1{
+ text-align: center;
+ position: relative;
+ width: 100%;
+}
+h1::after{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 6%;
+    height: 5px;
+    top: 180%;
+    right: 42%; 
+
+}
+h1::before{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 6%;
+    height: 5px;
+    top: 180%;
+    left: 42%; 
+
+}
